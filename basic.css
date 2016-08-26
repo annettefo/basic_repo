@@ -1,0 +1,101 @@
+*} 
+#wrapper {
+  width: 500px;
+  margin: 0 auto;
+  background: yellow;
+}
+* {
+	padding: 0px;
+}
+body {
+	font-family: 'Calibri', sans-serif;
+	background: yellow;
+}
+div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 50px;
+}
+button {
+	border: none;
+	padding: 10px 25px;
+	cursor: pointer;
+	color: white;
+	margin: 10px 0px;
+	font-weight: 500;
+	background: blue;
+  outline:none;
+  text-transform: uppercase;
+}
+button:hover {
+	background: red;
+}
+table {
+	width: 700px;
+	border: 1px solid black;
+	margin: 0px auto;
+	background: white;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+	text-align: left;
+}
+input {
+	padding: 5px;
+	display: block;
+	margin: 5px 0px;
+}
+textarea {
+	display: block;
+	font-family: 'Calibri', sans-serif;
+	margin: 3px 0px;
+}
+div.wrapper {
+	max-width: 800px;
+	min-height: 100px;
+	border-radius: 15px;
+	margin: 15px auto;
+	background: @red;
+}
+div.tbody {
+	padding: 25px;
+}
+div.tbody h1, p {
+	text-align: center;
+}
+div.inputname, div.disappear {
+	display: inline-block;
+	vertical-align: top;
+	width: 372px;
+	margin-top: 15px;
+}
+div.inputname {
+	padding: 10px;
+	padding-left: 40px;
+	background: red;
+}
+div.disappear {
+	background: purple;
+	min-height: 400px;
+}
+div.front, div.back {
+	background: white;
+	margin: 10px 15px;
+	text-align: center;
+	padding: 10px;
+	cursor: pointer;
+	min-height: 150px;
+}
+	h4, h3, h2, h1 {
+	vertical-align: middle;
+}
+.hide {
+	display: none;
+}
